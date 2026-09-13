@@ -1,1 +1,0 @@
- D:\\porfolio\\build\\web\\assets\\Tanveer\ Ahmad\ Resume.pdf D:\\porfolio\\build\\web\\manifest.json:  D:\\porfolio\\web\\assets\\Tanveer\ Ahmad\ Resume.pdf D:\\porfolio\\web\\index.html D:\\porfolio\\web\\manifest.json
