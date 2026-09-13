@@ -66,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _downloadResume() {
     final anchor = web.HTMLAnchorElement()
-      ..href = 'web/assets/Tanveer Ahmad Resume.pdf'
+      ..href = 'web/assets/Tanveer_Ahmad_Resume.pdf'
       ..download = 'Tanveer_Ahmad_Resume.pdf';
 
     anchor.click();
