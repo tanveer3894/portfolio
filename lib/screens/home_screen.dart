@@ -65,8 +65,14 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void _downloadResume() {
+    final baseUrl = web.window.location.href
+        .split('/portfolio/')[0];
+
+    final resumeUrl =
+        '$baseUrl/portfolio/assets/Tanveer_Ahmad_Resume.pdf';
+
     final anchor = web.HTMLAnchorElement()
-      ..href = 'web/assets/Tanveer_Ahmad_Resume.pdf'
+      ..href = resumeUrl
       ..download = 'Tanveer_Ahmad_Resume.pdf';
 
     anchor.click();
